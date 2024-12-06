@@ -2,7 +2,7 @@ macro_snipping: macro_snipping{
 compatible = "zmk,behavior-macro";
 label = "macro_snipping";
 #binding-cells = <0>;
-bindings = <&kp LCMD>, <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp NUMBER_4>;
+bindings = <&sk LEFT_COMMAND>, <&sk LCTRL>, <&sk LSHIFT>, <&kp NUMBER_4>;
 };
 macro_tmuxleader: macro_tmuxleader{
 compatible = "zmk,behavior-macro";
